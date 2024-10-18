@@ -13,5 +13,8 @@ def divide(a, b):
         return "Cannot divide by zero"
     return a / b
 
+def Reminder(a, b):
+    return a % b
+
 if __name__ == "__main__":
     print("Basic Calculator is ready!")
